@@ -1,0 +1,15 @@
+name: isaac-image-dataset
+version: 0.3.0
+description: Independent semantic-scene RGB and camera-pose datasets with configurable camera pools, batching and recovery.
+author: Isaac Image Dataset contributors
+license: MIT
+provides_tools:
+  - isaac_dataset_configure
+  - isaac_dataset_get_config
+  - isaac_dataset_sample
+  - isaac_dataset_collect
+  - isaac_dataset_split
+  - isaac_dataset_pipeline
+  - isaac_dataset_status
+  - isaac_dataset_cancel
+  - isaac_dataset_resume
