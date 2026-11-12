@@ -16,16 +16,16 @@
 
 ## 安裝
 
-發布至GitHub後，將下列 `OWNER/REPOSITORY` 替換為實際公開repo，即可由Hermes直接安裝：
+可由Hermes直接安裝公開repo：
 
 ```bash
-hermes plugins install https://github.com/OWNER/REPOSITORY.git
+hermes plugins install https://github.com/cocobird231/hermes-plugin-isaac-image-dataset.git
 ```
 
 或 clone 後執行一行安裝指令：
 
 ```bash
-git clone https://github.com/OWNER/REPOSITORY.git hermes-isaac-image-dataset
+git clone https://github.com/cocobird231/hermes-plugin-isaac-image-dataset.git hermes-isaac-image-dataset
 cd hermes-isaac-image-dataset
 bash install.sh
 ```
