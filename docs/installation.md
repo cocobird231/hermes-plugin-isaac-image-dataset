@@ -11,10 +11,10 @@
 
 ## 方法一：clone 後安裝
 
-將下列網址中的 `<owner>` 替換為實際 GitHub 帳號或組織：
+從公開repository取得plugin：
 
 ```bash
-git clone https://github.com/<owner>/hermes-isaac-image-dataset.git
+git clone https://github.com/cocobird231/hermes-plugin-isaac-image-dataset.git hermes-isaac-image-dataset
 cd hermes-isaac-image-dataset
 bash install.sh
 hermes plugins
@@ -38,7 +38,7 @@ bash install.sh \
 支援 Git plugin 安裝的 Hermes 版本可直接使用：
 
 ```bash
-hermes plugins install https://github.com/<owner>/hermes-isaac-image-dataset.git
+hermes plugins install https://github.com/cocobird231/hermes-plugin-isaac-image-dataset.git
 hermes plugins
 ```
 
